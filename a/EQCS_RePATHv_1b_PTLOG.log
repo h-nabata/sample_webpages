@@ -1,0 +1,103 @@
+*************************************************************************
+   EQ composition PT list (version 1.4l)
+      "RePATHv_1b"
+*************************************************************************
+                                            produced by H.N. (2022/04/18)
+   the number of EQ            : 12
+   the number of atom          : 72
+   the number of element       : 4
+   the number of composition   : 12
+   the number of sequence type : 10
+   the number of TS            : 0
+   the number of PT            : 7
+
+-------------------------------------------------------------------------
+
+   << list of compositions >>
+
+   type 1 EQ	: 0 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 2 EQ	: 1 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 3 EQ	: 2 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 4 EQ	: 3 (1 EQ(s))
+             	: HCO33Pd32 H2O2 H (3 molecule(s))
+   type 5 EQ	: 4 (1 EQ(s))
+             	: HCO33Pd32 HO H2O (3 molecule(s))
+   type 6 EQ	: 5 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 7 EQ	: 6 (1 EQ(s))
+             	: H3CO35Pd32 H (2 molecule(s))
+   type 8 EQ	: 7 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 9 EQ	: 8 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 10 EQ	: 9 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 11 EQ	: 10 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 12 EQ	: 11 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+
+-------------------------------------------------------------------------
+
+   << list of sequences >>
+
+   Iseq  1 EQ	: 0 (1 EQ(s))
+   Iseq  2 EQ	: 1 6 11 (3 EQ(s))
+   Iseq  3 EQ	: 2 (1 EQ(s))
+   Iseq  4 EQ	: 3 (1 EQ(s))
+   Iseq  5 EQ	: 4 (1 EQ(s))
+   Iseq  6 EQ	: 5 (1 EQ(s))
+   Iseq  7 EQ	: 7 (1 EQ(s))
+   Iseq  8 EQ	: 8 (1 EQ(s))
+   Iseq  9 EQ	: 9 (1 EQ(s))
+   Iseq 10 EQ	: 10 (1 EQ(s))
+
+=========================================================================
+
+list of PT connected from composition type 1 ( Iseq 1 )
+ PT 0	:  0 -  1	( -> type  2 : Iseq  2 ) : E = -2261.902596658304 (dE = -2.2 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 2 ( Iseq 2 )
+ PT 0	:  1 -  0	( -> type  1 : Iseq  1 ) : E = -2261.902596658304 (dE = 3.5 kJ/mol)
+ PT 1	:  1 -  2	( -> type  3 : Iseq  3 ) : E = -2261.901407707954 (dE = 6.6 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 3 ( Iseq 3 )
+ PT 1	:  2 -  1	( -> type  2 : Iseq  2 ) : E = -2261.901407707954 (dE = 14.8 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 4 ( Iseq 4 )
+ PT 2	:  3 -  4	( -> type  5 : Iseq  5 ) : E = -2262.033890505511 (dE = 78.7 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 5 ( Iseq 5 )
+ PT 2	:  4 -  3	( -> type  4 : Iseq  4 ) : E = -2262.033890505511 (dE = 281.1 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 6 ( Iseq 6 )
+ PT 3	:  5 -  6	( -> type  7 : Iseq  2 ) : E = -2261.883993975025 (dE = 51.0 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 7 ( Iseq 2 )
+ PT 3	:  6 -  5	( -> type  6 : Iseq  6 ) : E = -2261.883993975025 (dE = 53.9 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 8 ( Iseq 7 )
+ PT 4	:  7 -  8	( -> type  9 : Iseq  8 ) : E = -2261.962188453610 (dE = 157.9 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 9 ( Iseq 8 )
+ PT 4	:  8 -  7	( -> type  8 : Iseq  7 ) : E = -2261.962188453610 (dE = 35.8 kJ/mol)
+ PT 5	:  8 -  9	( -> type 10 : Iseq  9 ) : E = -2261.973553470996 (dE = 6.0 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 10 ( Iseq 9 )
+ PT 5	:  9 -  8	( -> type  9 : Iseq  8 ) : E = -2261.973553470996 (dE = 90.1 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 11 ( Iseq 10 )
+ PT 6	: 10 - 11	( -> type 12 : Iseq  2 ) : E = -2261.885630495193 (dE = 81.6 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 12 ( Iseq 2 )
+ PT 6	: 11 - 10	( -> type 11 : Iseq 10 ) : E = -2261.885630495193 (dE = 40.6 kJ/mol)
+-------------------------------------------------------------------------
+
+=========================================================================
+list of PT connected to the same composition type : (dE = left -> right, right -> left)
+=========================================================================
+list of PT connected to "??" or "DC" : (dE = left -> right, right -> left)
+=========================================================================

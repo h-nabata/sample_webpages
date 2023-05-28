@@ -1,0 +1,55 @@
+*************************************************************************
+   EQ composition PT list (version 1.4l)
+      "RePATHv_1d"
+*************************************************************************
+                                            produced by H.N. (2022/04/18)
+   the number of EQ            : 4
+   the number of atom          : 72
+   the number of element       : 4
+   the number of composition   : 4
+   the number of sequence type : 4
+   the number of TS            : 2
+   the number of PT            : 2
+
+-------------------------------------------------------------------------
+
+   << list of compositions >>
+
+   type 1 EQ	: 0 (1 EQ(s))
+             	: H2O H2CO34Pd32 (2 molecule(s))
+   type 2 EQ	: 1 (1 EQ(s))
+             	: HCO34Pd32 H2O H (3 molecule(s))
+   type 3 EQ	: 2 (1 EQ(s))
+             	: H2O H2CO34Pd32 (2 molecule(s))
+   type 4 EQ	: 3 (1 EQ(s))
+             	: H2O H HCO34Pd32 (3 molecule(s))
+
+-------------------------------------------------------------------------
+
+   << list of sequences >>
+
+   Iseq 1 EQ	: 0 (1 EQ(s))
+   Iseq 2 EQ	: 1 (1 EQ(s))
+   Iseq 3 EQ	: 2 (1 EQ(s))
+   Iseq 4 EQ	: 3 (1 EQ(s))
+
+=========================================================================
+
+list of PT connected from composition type 1 ( Iseq 1 )
+ PT 0	: 0 - 1	( -> type 2 : Iseq 2 ) : E = -2262.157474825714 (dE = 29.2 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 2 ( Iseq 2 )
+ PT 0	: 1 - 0	( -> type 1 : Iseq 1 ) : E = -2262.157474825714 (dE = 16.2 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 3 ( Iseq 3 )
+ PT 1	: 2 - 3	( -> type 4 : Iseq 4 ) : E = -2262.087267956143 (dE = 76.1 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 4 ( Iseq 4 )
+ PT 1	: 3 - 2	( -> type 3 : Iseq 3 ) : E = -2262.087267956143 (dE = 137.0 kJ/mol)
+-------------------------------------------------------------------------
+
+=========================================================================
+list of PT connected to the same composition type : (dE = left -> right, right -> left)
+=========================================================================
+list of PT connected to "??" or "DC" : (dE = left -> right, right -> left)
+=========================================================================

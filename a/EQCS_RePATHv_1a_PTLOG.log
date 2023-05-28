@@ -1,0 +1,84 @@
+*************************************************************************
+   EQ composition PT list (version 1.4l)
+      "RePATHv_1a"
+*************************************************************************
+                                            produced by H.N. (2022/04/18)
+   the number of EQ            : 10
+   the number of atom          : 72
+   the number of element       : 4
+   the number of composition   : 9
+   the number of sequence type : 7
+   the number of TS            : 0
+   the number of PT            : 5
+
+-------------------------------------------------------------------------
+
+   << list of compositions >>
+
+   type 1 EQ	: 0 (1 EQ(s))
+             	: H4CO33Pd32 O2 (2 molecule(s))
+   type 2 EQ	: 1 (1 EQ(s))
+             	: HCO33Pd32 H2O2 H (3 molecule(s))
+   type 3 EQ	: 2 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 4 EQ	: 3 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 5 EQ	: 4 6 (2 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 6 EQ	: 5 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 7 EQ	: 7 (1 EQ(s))
+             	: H O2 H3CO33Pd32 (3 molecule(s))
+   type 8 EQ	: 8 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+   type 9 EQ	: 9 (1 EQ(s))
+             	: H4CO35Pd32 (1 molecule(s))
+
+-------------------------------------------------------------------------
+
+   << list of sequences >>
+
+   Iseq 1 EQ	: 0 (1 EQ(s))
+   Iseq 2 EQ	: 1 (1 EQ(s))
+   Iseq 3 EQ	: 2 3 9 (3 EQ(s))
+   Iseq 4 EQ	: 4 6 (2 EQ(s))
+   Iseq 5 EQ	: 5 (1 EQ(s))
+   Iseq 6 EQ	: 7 (1 EQ(s))
+   Iseq 7 EQ	: 8 (1 EQ(s))
+
+=========================================================================
+
+list of PT connected from composition type 1 ( Iseq 1 )
+ PT 0	:  0 -  1	( -> type 2 : Iseq 2 ) : E = -2261.973492981635 (dE = 58.7 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 2 ( Iseq 2 )
+ PT 0	:  1 -  0	( -> type 1 : Iseq 1 ) : E = -2261.973492981635 (dE = 234.8 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 3 ( Iseq 3 )
+ PT 1	:  2 -  3	( -> type 4 : Iseq 3 ) : E = -2261.890364320509 (dE = 30.3 kJ/mol) : the same Iseq connection
+-------------------------------------------------------------------------
+list of PT connected from composition type 4 ( Iseq 3 )
+ PT 1	:  3 -  2	( -> type 3 : Iseq 3 ) : E = -2261.890364320509 (dE = 34.2 kJ/mol) : the same Iseq connection
+-------------------------------------------------------------------------
+list of PT connected from composition type 5 ( Iseq 4 )
+ PT 2	:  4 -  5	( -> type 6 : Iseq 5 ) : E = -2261.979356774663 (dE = 122.6 kJ/mol)
+ PT 3	:  6 -  7	( -> type 7 : Iseq 6 ) : E = -2261.987792026995 (dE = 81.9 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 6 ( Iseq 5 )
+ PT 2	:  5 -  4	( -> type 5 : Iseq 4 ) : E = -2261.979356774663 (dE = 189.2 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 7 ( Iseq 6 )
+ PT 3	:  7 -  6	( -> type 5 : Iseq 4 ) : E = -2261.987792026995 (dE = 200.4 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 8 ( Iseq 7 )
+ PT 4	:  8 -  9	( -> type 9 : Iseq 3 ) : E = -2261.861592699559 (dE = 101.7 kJ/mol)
+-------------------------------------------------------------------------
+list of PT connected from composition type 9 ( Iseq 3 )
+ PT 4	:  9 -  8	( -> type 8 : Iseq 7 ) : E = -2261.861592699559 (dE = 103.4 kJ/mol)
+-------------------------------------------------------------------------
+
+=========================================================================
+list of PT connected to the same composition type : (dE = left -> right, right -> left)
+=========================================================================
+list of PT connected to "??" or "DC" : (dE = left -> right, right -> left)
+=========================================================================
